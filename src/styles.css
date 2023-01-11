@@ -1,3 +1,22 @@
 *, *::after, *::before {
   box-sizing: border-box;
 }
+
+html, body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  background: #0B2434;
+  display: grid;
+  place-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 90%;
+  min-width: 90vh;
+  min-height: 90vh;
+  
+  background: #F5F5F5;
+  border-radius: 20px;
+}

@@ -1,12 +1,10 @@
 import React from "react";
 
-function App() {
+export default function App() {
 
   return (
-    <div>
-      Tenzies | Built with React
-    </div>
+    <main>
+      
+    </main>
   );
 }
-
-export default App;
