@@ -74,6 +74,7 @@ export default function App() {
       >
         {tenzies ? "New Game" : "Roll"}
       </button>
+      {tenzies ? <h1 className="won">You Won!</h1> : ""}
     </main>
   );
 }
